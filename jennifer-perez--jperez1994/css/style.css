@@ -1,0 +1,1277 @@
+@font-face {
+  font-family: "Cormorant-Garamond-italic";
+  font-weight: 400;
+  font-style: italic;
+  src: local('Cormorant-Garamond-italic'),local('Cormorant-Garamond-italic'), url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400i,600,600i,700,700i.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: "Cormorant-Garamond-semi-bold-italic";
+  font-weight: 600;
+  font-style: italic;
+  src: local('Cormorant-Garamond-semi-bold-italic'),local('Cormorant-Garamond-semi-bold-italic'), url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400i,600,600i,700,700i.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-weight: 600;
+  font-style:normal;
+  src: local('Cormorant Garamond'),local('Cormorant Garamond'), url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600,700.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: "Cormorant-Garamond-bold";
+  font-weight: 700;
+  font-style:normal;
+  src: local('Cormorant-Garamond-bold'),local('Cormorant-Garamond-bold'), url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600,700.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+#mbackground{
+  top: 0px;
+}
+
+.white {
+  position: absolute;
+  background:rgba(132,132,132, 0.3);
+  width: 1280px;
+  height: 800px;
+  left: 102px;
+  top: 8px;
+}
+
+.purple {
+  position: absolute;
+  background: rgb(70,20,60);
+  width: 1280px;
+  height: 42px;
+  top: 150px;
+}
+
+.purple2{
+  position: absolute;
+  background: rgb(70, 20, 60);
+  width: 1280px;
+  height: 60px;
+  top:800px;
+}
+
+#fb{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 95%;
+  left:540px;
+}
+
+#tb{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 95%;
+  left:590px;
+}
+
+#tw{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top:95%;
+  left: 640px;
+}
+
+#ld{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 95%;
+  left: 690px;
+}
+
+#ig{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 95%;
+  left: 740px;
+}
+
+
+#pbackground{
+  position: absolute;
+  width: 948px;
+  height: 470px;
+  top: 293px;
+  left: 165px;
+}
+
+#logo{
+  position: absolute;
+  height: 142px;
+  width: 227px;
+  top:20px;
+  margin-left: 177.9px;
+}
+
+h1{
+  font-family: "Cormorant-Garamond-semi-bold-italic";
+  font-style: italic;
+  font-size: 70px;
+  position: absolute;
+  left: 576px;
+  top:0px;
+}
+
+h2{
+  position: absolute;
+  font-family:"Cormorant-Garamond-semi-bold-italic";
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(166, 166, 166);
+  top: 20px;
+  margin-left: 550px;
+}
+
+#major{
+  font-family: "Cormorant-Garamond-italic";
+  font-style: italic;
+  font-size: 24px;
+  position: absolute;
+  top: 80px;
+  left: 790px;
+}
+
+#portfolio{
+  position: absolute;
+  font-family: "Cormorant-Garamond-italic";
+  font-style: italic;
+  font-size: 22px;
+  color: rgb(166, 166, 166);
+  margin-left: 565px;
+  top: 162px;
+}
+#about{
+  position: absolute;
+  font-family: "Cormorant-Garamond-italic";
+  font-style: italic;
+  font-size: 22px;
+  color: rgb(166, 166, 166);
+  margin-left: 179px;
+  top: 162px;
+}
+#contact{
+  font-family: "Cormorant-Garamond-italic";
+  font-style: italic;
+  position: absolute;
+  font-size: 22px;
+  color: rgb(166, 166, 166);
+  margin-left: 1012px;
+  top: 162px;
+}
+
+#info1{
+  font-family: "Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  color: rgb(166, 166, 166);
+  font-size: 16px;
+  width: 820px;
+  height: 380px;
+  margin-left: 226px;
+  margin-top: 330px;
+}
+
+#info2{
+  font-family: "Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  color: rgb(166, 166, 166);
+  font-size: 16px;
+  width: 477px;
+  height: 63px;
+  margin-left: 226px;
+  margin-top: 400px;
+}
+
+#info3{
+  font-family: "Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  color: rgb(166, 166, 166);
+  font-size: 16px;
+  width: 477px;
+  height: 63px;
+  margin-left: 226px;
+  margin-top: 470px;
+}
+
+#info4{
+  font-family: "Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  color: rgb(166, 166, 166);
+  font-size: 16px;
+  width: 477px;
+  height: 63px;
+  margin-left: 226px;
+  margin-top: 545px;
+}
+
+#me{
+  position: absolute;
+  top: 380px;
+  margin-left: 740px;
+  width: 270px;
+  height: 345px;
+}
+
+#contactinfo1{
+  font-family: "Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  font-size: 20px;
+  top: 396px;
+  margin-left: 292px;
+  width: 695px;
+  height: 72px;
+  color: rgb(166, 166, 166);
+}
+
+#contactemail{
+  font-family:"Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  font-size: 20px;
+  top: 502px;
+  margin-left: 291px;
+  color: rgb(166, 166, 166);
+}
+
+#contactnumbers{
+  font-family:"Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  font-size: 20px;
+  top: 550px;
+  margin-left: 291px;
+  width: 253px;
+  height: 58px;
+  color: rgb(166, 166, 166);
+}
+
+#contactadd{
+  font-family:"Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  font-size: 20px;
+  top: 621px;
+  margin-left: 291px;
+  color: rgb(166, 166, 166);
+}
+
+#mail{
+  position: absolute;
+  width: 272px;
+  height: 213px;
+  top: 471px;
+  margin-left: 715PX;
+}
+
+#vs{
+  position: absolute;
+  width: 173px;
+  height: 224px;
+  left: 212px;
+  top: 330px;
+}
+
+#sw{
+  position: absolute;
+  width: 173px;
+  height: 224px;
+  left: 437px;
+  top: 330px;
+}
+
+#yo{
+  position: absolute;
+  width: 173px;
+  height: 224px;
+  left: 662px;
+  top: 330px;
+}
+
+#lg{
+  position: absolute;
+  width: 173px;
+  height: 224px;
+  left: 887px;
+  top: 330px;
+}
+
+#bg1{
+  position: absolute;
+  width: 398px;
+  height: 133px;
+  left: 212px;
+  top: 590px;
+}
+
+#bg2{
+  position: absolute;
+  width: 398px;
+  height: 133px;
+  left: 662px;
+  top: 590px;
+}
+
+#video{
+  position: absolute;
+  top:345px;
+  left: 330px;
+}
+
+
+
+@media (max-width: 1280px) {
+
+  #mbackground{
+    position: absolute;
+    width: 1280px;
+    height: 100%;
+    top:0px;
+}
+
+.white {
+  position: absolute;
+  background:rgba(132,132,132, 0.3);
+  width: 1075px;
+  height: 100%;
+  left: 102px;
+  top: 0px;
+}
+
+.purple {
+  position: absolute;
+  background: rgb(70,20,60);
+  width: 1280px;
+  height: 42px;
+  top: 150px;
+}
+
+.purple2{
+  position: absolute;
+  background: rgb(70, 20, 60);
+  width: 1280px;
+  height: 60px;
+  top:95%;
+}
+
+#fb{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 96%;
+  left:540px;
+}
+
+#tb{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 96%;
+  left:590px;
+}
+
+#tw{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top:96%;
+  left: 640px;
+}
+
+#ld{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 96%;
+  left: 690px;
+}
+
+#ig{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 96%;
+  left: 740px;
+}
+
+
+#pbackground{
+  position: absolute;
+  width: 948px;
+  height: 470px;
+  top: 293px;
+  left: 165px;
+}
+
+#logo{
+  position: absolute;
+  height: 142px;
+  width: 227px;
+  margin-left: 177.9px;
+}
+
+h1{
+  font-family: "Cormorant-Garamond-semi-bold-italic";
+  font-style: italic;
+  font-size: 70px;
+  position: absolute;
+  left: 576px;
+  margin-top:20px;
+}
+
+h2{
+  position: absolute;
+  font-family:"Cormorant-Garamond-semi-bold-italic";
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(166, 166, 166);
+  margin-top: 210px;
+  margin-left: 550px;
+}
+
+#major{
+  font-family: "Cormorant-Garamond-italic";
+  font-style: italic;
+  font-size: 24px;
+  position: absolute;
+  top: 80px;
+  left: 790px;
+}
+
+#portfolio{
+  position: absolute;
+  font-family: "Cormorant-Garamond-italic";
+  font-style: italic;
+  font-size: 22px;
+  color: rgb(166, 166, 166);
+  margin-left: 565px;
+  top: 162px;
+}
+#about{
+  position: absolute;
+  font-family: "Cormorant-Garamond-italic";
+  font-style: italic;
+  font-size: 22px;
+  color: rgb(166, 166, 166);
+  margin-left: 179px;
+  top: 162px;
+}
+#contact{
+  font-family: "Cormorant-Garamond-italic";
+  font-style: italic;
+  position: absolute;
+  font-size: 22px;
+  color: rgb(166, 166, 166);
+  margin-left: 1012px;
+  top: 162px;
+}
+
+#info1{
+  font-family: "Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  color: rgb(166, 166, 166);
+  font-size: 16px;
+  width: 820px;
+  height: 380px;
+  margin-left: 226px;
+  margin-top: 330px;
+}
+
+#info2{
+  font-family: "Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  color: rgb(166, 166, 166);
+  font-size: 16px;
+  width: 477px;
+  height: 63px;
+  margin-left: 226px;
+  margin-top: 400px;
+}
+
+#info3{
+  font-family: "Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  color: rgb(166, 166, 166);
+  font-size: 16px;
+  width: 477px;
+  height: 63px;
+  margin-left: 226px;
+  margin-top: 470px;
+}
+
+#info4{
+  font-family: "Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  color: rgb(166, 166, 166);
+  font-size: 16px;
+  width: 477px;
+  height: 63px;
+  margin-left: 226px;
+  margin-top: 545px;
+}
+
+#me{
+  position: absolute;
+  top: 380px;
+  margin-left: 740px;
+  width: 270px;
+  height: 345px;
+}
+
+#contactinfo1{
+  font-family: "Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  font-size: 20px;
+  top: 396px;
+  margin-left: 292px;
+  width: 695px;
+  height: 72px;
+  color: rgb(166, 166, 166);
+}
+
+#contactemail{
+  font-family:"Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  font-size: 20px;
+  top: 502px;
+  margin-left: 291px;
+  color: rgb(166, 166, 166);
+}
+
+#contactnumbers{
+  font-family:"Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  font-size: 20px;
+  top: 550px;
+  margin-left: 291px;
+  width: 253px;
+  height: 58px;
+  color: rgb(166, 166, 166);
+}
+
+#contactadd{
+  font-family:"Cormorant-Garamond-bold";
+  font-style: normal;
+  position: absolute;
+  font-size: 20px;
+  top: 621px;
+  margin-left: 291px;
+  color: rgb(166, 166, 166);
+}
+
+#mail{
+  position: absolute;
+  width: 272px;
+  height: 213px;
+  top: 471px;
+  margin-left: 715PX;
+}
+
+#vs{
+  position: absolute;
+  width: 173px;
+  height: 224px;
+  left: 212px;
+  top: 330px;
+}
+
+#sw{
+  position: absolute;
+  width: 173px;
+  height: 224px;
+  left: 437px;
+  top: 330px;
+}
+
+#yo{
+  position: absolute;
+  width: 173px;
+  height: 224px;
+  left: 662px;
+  top: 330px;
+}
+
+#lg{
+  position: absolute;
+  width: 173px;
+  height: 224px;
+  left: 887px;
+  top: 330px;
+}
+
+#bg1{
+  position: absolute;
+  width: 398px;
+  height: 133px;
+  left: 212px;
+  top: 590px;
+}
+
+#bg2{
+  position: absolute;
+  width: 398px;
+  height: 133px;
+  left: 662px;
+  top: 590px;
+}
+
+#video{
+  position: absolute;
+  top:345px;
+  left: 330px;
+}
+
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+  #mbackground{
+    width: 800px;
+    height: 100%;
+  }
+  .white {
+    position: absolute;
+    background:rgba(132,132,132, 0.3);
+    width: 645px;
+    height: 100%;
+    left: 80px;
+    top: 0px;
+  }
+
+  .purple {
+    position: absolute;
+    background: rgb(70,20,60);
+    width: 800px;
+    height: 42px;
+    top: 150px;
+  }
+
+  .purple2{
+    position: absolute;
+    background: rgb(70, 20, 60);
+    width: 800px;
+    height: 60px;
+    top:95%;
+  }
+
+  h1{
+    font-family: "Cormorant-Garamond-semi-bold-italic";
+    font-style: italic;
+    font-size: 50px;
+    position: absolute;
+    left: 353px;
+    margin-top:20px;
+  }
+
+  h2{
+    position: absolute;
+    font-family:"Cormorant-Garamond-semi-bold-italic";
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(166, 166, 166);
+    margin-top: 210px;
+    margin-left:345px;
+  }
+
+  #logo{
+    position: absolute;
+    height: 113px;
+    width: 185px;
+    margin-left: 74px;
+  }
+
+    #pbackground{
+      position: absolute;
+      width: 580px;
+      height: 60%;
+      top: 280px;
+      left: 110px;
+    }
+
+    #major{
+      font-family: "Cormorant-Garamond-italic";
+      font-style: italic;
+      font-size: 24px;
+      position: absolute;
+      top: 55px;
+      left: 435px;
+    }
+
+  #fb{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 96%;
+    left:280px;
+  }
+
+  #tb{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 96%;
+    left:330px;
+  }
+
+  #tw{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:96%;
+    left:380px;
+  }
+
+  #ld{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 96%;
+    left: 430px;
+  }
+
+  #ig{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 96%;
+    left: 480px;
+  }
+
+  #info1{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 14px;
+    width: 544px;
+    height: 465px;
+    margin-left: 126px;
+    margin-top:290px;
+  }
+
+  #info2{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 14px;
+    width: 544px;
+    height:105px;
+    margin-left: 126px;
+    margin-top: 330px;
+  }
+
+  #info3{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 14px;
+    width: 544px;
+    height: 105px;
+    margin-left: 126px;
+    margin-top:370px;
+  }
+
+  #info4{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 14px;
+    width: 544px;
+    height: 465px;
+    margin-left: 126px;
+    margin-top:410px;
+  }
+
+  #me{
+    position: absolute;
+    top: 580px;
+    margin-left: 335px;
+    width: 110px;
+    height: 140px;
+  }
+
+
+
+  #video{
+    position: absolute;
+    top:400px;
+    left: 199px;
+    width: 402px;
+    height: 233px;
+  }
+
+
+  #vs{
+    position: absolute;
+    width: 140px;
+    height: 224px;
+    left: 145px;
+    top: 400px;
+  }
+
+  #sw{
+    position: absolute;
+    width: 140px;
+    height: 224px;
+    left: 330px;
+    top: 400px;
+  }
+
+  #yo{
+    position: absolute;
+    width: 173px;
+    height: 224px;
+    left: 240px;
+    top: 400px;
+    visibility: hidden;
+  }
+
+  #lg{
+    position: absolute;
+    width: 140px;
+    height: 224px;
+    left: 515px;
+    top: 400px;
+  }
+
+  #bg1{
+    position: absolute;
+    width: 398px;
+    height: 133px;
+    left: 212px;
+    top: 590px;
+    visibility: hidden;
+  }
+
+  #bg2{
+    position: absolute;
+    width: 398px;
+    height: 133px;
+    left: 662px;
+    top: 590px;
+    visibility: hidden;
+  }
+
+  #contactinfo1{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    font-size: 20px;
+    top: 310px;
+    margin-left: 150px;
+    width: 500px;
+    height: 245px;
+    color: rgb(166, 166, 166);
+  }
+
+  #contactemail{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 20px;
+    width: 280px;
+    height: 425px;
+    margin-left: 150px;
+    top:600px;
+  }
+
+  #contactnumbers{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 20px;
+    margin-left: 150px;
+    top: 530px;
+  }
+
+  #contactadd{
+    font-family:"Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    font-size: 20px;
+    top: 470px;
+    margin-left: 150px;
+    color: rgb(166, 166, 166);
+  }
+
+  #mail{
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    top: 410px;
+    margin-left: 450px;
+  }
+
+  #portfolio{
+    position: absolute;
+    font-family: "Cormorant-Garamond-italic";
+    font-style: italic;
+    font-size: 22px;
+    color: rgb(166, 166, 166);
+    margin-left: 338px;
+    top: 162px;
+  }
+  #about{
+    position: absolute;
+    font-family: "Cormorant-Garamond-italic";
+    font-style: italic;
+    font-size: 22px;
+    color: rgb(166, 166, 166);
+    margin-left: 181px;
+    top: 162px;
+  }
+  #contact{
+    font-family: "Cormorant-Garamond-italic";
+    font-style: italic;
+    position: absolute;
+    font-size: 22px;
+    color: rgb(166, 166, 166);
+    margin-left: 500px;
+    top: 162px;
+  }
+}
+
+@media (max-width: 480px) {
+  #mbackground{
+    width: 480px;
+    height: 100%;
+  }
+  .white {
+    position: absolute;
+    background:rgba(132,132,132, 0.3);
+    width: 364px;
+    height: 100%;
+    left: 60px;
+    top: 0px;
+  }
+
+  .purple {
+    position: absolute;
+    background: rgb(70,20,60);
+    width: 480px;
+    height: 42px;
+    top: 150px;
+  }
+
+  .purple2{
+    position: absolute;
+    background: rgba(70, 20, 60);
+    width: 480px;
+    height: 60px;
+    top:95%;
+  }
+
+  h1{
+    font-family: "Cormorant-Garamond-semi-bold-italic";
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    left: 169px;
+    margin-top:20px;
+  }
+
+  h2{
+    position: absolute;
+    font-family:"Cormorant-Garamond-semi-bold-italic";
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(166, 166, 166);
+    margin-top: 210px;
+    margin-left:165px;
+  }
+
+  #logo{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    margin-left: 74px;
+  }
+
+    #pbackground{
+      position: absolute;
+      width: 364px;
+      height: 80%;
+      top: 156px;
+      left: 60px;
+    }
+
+    #major{
+      font-family: "Cormorant-Garamond-italic";
+      font-style: italic;
+      font-size: 20px;
+      position: absolute;
+      top: 55px;
+      left: 248px;
+    }
+
+  #fb{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 96%;
+    left:120px;
+  }
+
+  #tb{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 96%;
+    left:170px;
+  }
+
+  #tw{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:96%;
+    left: 220px;
+  }
+
+  #ld{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 96%;
+    left: 270px;
+  }
+
+  #ig{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 96%;
+    left: 320px;
+  }
+
+  #info1{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 12px;
+    width: 335px;
+    height: 465px;
+    margin-left: 65px;
+    margin-top:290px;
+  }
+
+  #info2{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 12px;
+    width: 335px;
+    height: 465px;
+    margin-left: 65px;
+    margin-top: 350px;
+  }
+
+  #info3{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 12px;
+    width: 335px;
+    height: 465px;
+    margin-left: 65px;
+    margin-top:400px;
+  }
+
+  #info4{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 12px;
+    width: 335px;
+    height: 465px;
+    margin-left: 65px;
+    margin-top:445px;
+  }
+
+  #me{
+    position: absolute;
+    top: 620px;
+    margin-left: 153px;
+    width: 157px;
+    height: 210px;
+  }
+
+
+
+  #video{
+    position: absolute;
+    top:350px;
+    left: 80px;
+    width: 325px;
+    height: 190px;
+  }
+
+
+  #vs{
+    position: absolute;
+    width: 140px;
+    height: 210px;
+    left: 165px;
+    top: 330px;
+  }
+
+  #sw{
+    position: absolute;
+    width: 140px;
+    height: 210px;
+    left: 165px;
+    top: 590px;
+  }
+
+  #yo{
+    position: absolute;
+    width: 173px;
+    height: 224px;
+    left: 662px;
+    top: 330px;
+    visibility: hidden;
+  }
+
+  #lg{
+    position: absolute;
+    width: 173px;
+    height: 224px;
+    left: 887px;
+    top: 330px;
+    visibility: hidden;
+  }
+
+  #bg1{
+    position: absolute;
+    width: 398px;
+    height: 133px;
+    left: 212px;
+    top: 590px;
+    visibility: hidden;
+  }
+
+  #bg2{
+    position: absolute;
+    width: 398px;
+    height: 133px;
+    left: 662px;
+    top: 590px;
+    visibility: hidden;
+  }
+
+  #contactinfo1{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    font-size: 20px;
+    top: 260px;
+    margin-left: 76px;
+    width: 315px;
+    height: 245px;
+    color: rgb(166, 166, 166);
+  }
+
+  #contactemail{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 20px;
+    width: 280px;
+    height: 425px;
+    margin-left: 70px;
+    top:720px;
+  }
+
+  #contactnumbers{
+    font-family: "Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    color: rgb(166, 166, 166);
+    font-size: 20px;
+    margin-left: 70px;
+    top: 650px;
+  }
+
+  #contactadd{
+    font-family:"Cormorant-Garamond-bold";
+    font-style: normal;
+    position: absolute;
+    font-size: 20px;
+    top: 600px;
+    margin-left: 70px;
+    color: rgb(166, 166, 166);
+  }
+
+  #mail{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    top: 410px;
+    margin-left: 130px;
+  }
+
+  #portfolio{
+    position: absolute;
+    font-family: "Cormorant-Garamond-italic";
+    font-style: italic;
+    font-size: 22px;
+    color: rgb(166, 166, 166);
+    margin-left: 200px;
+    top: 162px;
+  }
+  #about{
+    position: absolute;
+    font-family: "Cormorant-Garamond-italic";
+    font-style: italic;
+    font-size: 22px;
+    color: rgb(166, 166, 166);
+    margin-left: 90px;
+    top:162px;
+  }
+  #contact{
+    font-family: "Cormorant-Garamond-italic";
+    font-style: italic;
+    position: absolute;
+    font-size: 22px;
+    color: rgb(166, 166, 166);
+    margin-left: 300px;
+    top: 162px;
+  }
+}
+}
